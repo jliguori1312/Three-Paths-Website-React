@@ -3,73 +3,226 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: flex-start;
-  flex-direction: column;
-  background-size: cover;
-  justify-content: flex-start;
-  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
-}
-.home-container1 {
-  width: 100%;
-  height: 999px;
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 1px;
-  padding-right: 1px;
-  background-size: cover;
-  justify-content: center;
-  background-image: url("public/3-gerardandthekid_1-1000h.jpg");
-  background-position: center;
-}
-.home-container2 {
-  width: 100%;
-  height: 235px;
-  display: flex;
-  z-index: 100;
-  position: relative;
   align-items: center;
-  justify-content: flex-start;
-  background-image: linear-gradient(0deg, rgba(251, 253, 255, 0.01) 0.00%,rgb(0, 0, 0) 100.00%);
-}
-.home-container3 {
-  flex: 0 0 auto;
-  width: 210px;
-  height: 132px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
   flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/3-gerardandthekid_1-1500w.jpg");
 }
-.home-image {
-  right: -574px;
-  width: 390px;
-  bottom: -391px;
-  height: 205px;
-  position: absolute;
-  object-fit: cover;
+.home-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0.00%,rgba(0, 0, 0, 0) 100.00%);
+}
+.home-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.home-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 .home-text {
-  left: 482px;
-  bottom: -384px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 100;
+}
+.home-text01 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  transition: 0.3s;
+  font-family: "Inter";
+  font-weight: 200;
+  margin-left: var(--dl-space-space-twounits);
+}
+
+.home-text02 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 100;
+  margin-left: var(--dl-space-space-twounits);
+}
+.home-text03 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 100;
+  margin-left: var(--dl-space-space-twounits);
+}
+.home-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-burger-menu {
+  display: none;
+}
+.home-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
   position: absolute;
-  font-size: 37px;
-  text-align: left;
-  font-family: "Georgia";
-  letter-spacing: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
 }
-.home-text1 {
-  color: #ffffff;
-  font-style: normal;
-  font-family: "Inter";
-  font-weight: 700;
-  line-height: 0.9;
-  letter-spacing: 0.6px;
+.home-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
-.home-text2 {
+.home-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.home-logo {
+  height: 2rem;
+}
+.home-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text06 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text07 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text08 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 1000;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container2 {
+  width: 200px;
+  height: 130px;
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/three%20paths%20logo1-200h.png");
+  background-position: center;
+}
+.home-text09 {
   color: #ffffff;
+  align-self: flex-end;
   font-style: normal;
-  font-family: "Inter";
   font-weight: 700;
-  line-height: 0.9;
-  letter-spacing: 0.6px;
+}
+@media(max-width: 767px) {
+  .home-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-desktop-menu {
+    display: none;
+  }
+  .home-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-text04 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text05 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text06 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text07 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text08 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .home-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .home-mobile-menu {
+    padding: 16px;
+  }
 }
