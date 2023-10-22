@@ -1,0 +1,78 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
+}
+.home-container1 {
+  width: 100%;
+  height: 999px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1px;
+  padding-right: 1px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/3-gerardandthekid_1-1000h.jpg");
+  background-position: center;
+}
+.home-container2 {
+  width: 100%;
+  height: 151px;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: linear-gradient(0deg, rgba(251, 253, 255, 0.01) 0.00%,rgb(0, 0, 0) 100.00%);
+}
+.home-container3 {
+  flex: 0 0 auto;
+  width: 210px;
+  height: 132px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-image {
+  top: 16px;
+  flex: 1;
+  left: 27px;
+  width: 152px;
+  height: 98px;
+  position: absolute;
+  object-fit: cover;
+}
+.home-text {
+  top: 67px;
+  left: 198px;
+  position: absolute;
+  font-size: 35px;
+  text-align: left;
+  font-family: "Georgia";
+  letter-spacing: 10px;
+}
+.home-text1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: 0.5px;
+}
+.home-text2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: 0.5px;
+}
