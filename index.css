@@ -41,17 +41,16 @@
   flex-direction: column;
 }
 .home-image {
-  top: -27px;
-  flex: 1;
-  left: 28px;
-  width: 152px;
-  height: 98px;
+  right: -574px;
+  width: 390px;
+  bottom: -391px;
+  height: 205px;
   position: absolute;
   object-fit: cover;
 }
 .home-text {
-  top: 70px;
-  left: 198px;
+  left: 482px;
+  bottom: -384px;
   position: absolute;
   font-size: 37px;
   text-align: left;
