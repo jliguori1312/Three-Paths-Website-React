@@ -34,21 +34,22 @@
 }
 .home-text {
   color: rgb(255, 255, 255);
+  font-size: 30px;
   font-style: normal;
   font-family: "Inter";
   font-weight: 100;
 }
 .home-text01 {
   color: rgb(255, 255, 255);
+  font-size: 30px;
   font-style: normal;
-  transition: 0.3s;
   font-family: "Inter";
-  font-weight: 200;
+  font-weight: 100;
   margin-left: var(--dl-space-space-twounits);
 }
-
 .home-text02 {
   color: rgb(255, 255, 255);
+  font-size: 30px;
   font-style: normal;
   font-family: "Inter";
   font-weight: 100;
@@ -56,6 +57,7 @@
 }
 .home-text03 {
   color: rgb(255, 255, 255);
+  font-size: 30px;
   font-style: normal;
   font-family: "Inter";
   font-weight: 100;
@@ -161,29 +163,32 @@
 .home-container1 {
   flex: 0 0 auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   min-height: 1000;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 .home-container2 {
-  width: 200px;
-  height: 130px;
+  width: 514px;
+  height: 328px;
   display: flex;
+  position: relative;
   align-self: center;
   align-items: flex-end;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/three%20paths%20logo1-200h.png");
+  background-image: url("public/three%20paths%20logo1-400h.png");
   background-position: center;
 }
 .home-text09 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
   align-self: flex-end;
   font-style: normal;
   font-weight: 700;
+  margin-bottom: -20px;
 }
 @media(max-width: 767px) {
   .home-navbar-interactive {
