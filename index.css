@@ -198,13 +198,13 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #d9d9d9;
 }
 .home-container02 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
   display: flex;
+  z-index: 1;
   position: relative;
   min-height: 1000px;
   align-items: center;
@@ -425,7 +425,7 @@
   width: 50%;
   object-fit: cover;
 }
-.home-image1 {
+.home-image01 {
   width: 50%;
   object-fit: cover;
 }
@@ -435,11 +435,116 @@
   display: flex;
   align-items: flex-start;
 }
-.home-image2 {
+.home-image02 {
   width: 50%;
   object-fit: cover;
 }
-.home-image3 {
+.home-image03 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  z-index: 5;
+  align-items: flex-start;
+}
+.home-container13 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+.home-image04 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-image05 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-container14 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+.home-image06 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-image07 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-container15 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  z-index: 5;
+  align-items: flex-start;
+}
+.home-container16 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+.home-image08 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-image09 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-container17 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+.home-image10 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-image11 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-container18 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  z-index: 5;
+  align-items: flex-start;
+}
+.home-container19 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+.home-image12 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-image13 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-container20 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+.home-image14 {
+  width: 50%;
+  object-fit: cover;
+}
+.home-image15 {
   width: 50%;
   object-fit: cover;
 }
