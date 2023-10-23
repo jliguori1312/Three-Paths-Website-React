@@ -135,9 +135,11 @@
 }
 .navbar-interactive-root-class-name1 {
   width: 100%;
+  background-color: #1a1a1a;
 }
 @media(max-width: 767px) {
   .navbar-interactive-navbar-interactive {
+    display: none;
     box-shadow: 5px 5px 10px 0px #d4d4d4;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);

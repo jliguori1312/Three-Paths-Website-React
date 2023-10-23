@@ -135,9 +135,11 @@
 }
 .navbar-interactive-root-class-name1 {
   width: 100%;
+  background-color: #1a1a1a;
 }
 @media(max-width: 767px) {
   .navbar-interactive-navbar-interactive {
+    display: none;
     box-shadow: 5px 5px 10px 0px #d4d4d4;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -186,7 +188,9 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-size: cover;
   justify-content: flex-start;
+  background-image: a6e8933e-1d8c-4b92-80e5-de6d85b974fb;
 }
 .home-container1 {
   flex: 0 0 auto;
@@ -197,7 +201,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("public/3-gerardandthekid_1-1500w.jpg");
+  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
 }
 .home-container2 {
   flex: 0 0 auto;
@@ -208,7 +212,9 @@
   min-height: 1000;
   align-items: center;
   flex-direction: column;
+  background-size: cover;
   justify-content: center;
+  background-image: url("public/landing%20collage-1500h.jpg");
 }
 .home-container3 {
   width: 466px;
@@ -237,20 +243,67 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #4e4e4e;
+  background-color: #1a1a1a;
 }
-.home-text1 {
+.home-text01 {
+  color: #ffffff;
   font-size: 3rem;
   text-align: center;
 }
-.home-text2 {
+.home-link {
+  color: rgb(255, 255, 255);
+  width: 800px;
   max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
+  font-weight: 200;
   margin-bottom: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-text02 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.home-text03 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.home-text04 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.home-text05 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.home-text06 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.home-text07 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.home-text08 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.home-text09 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.home-text10 {
+  font-style: normal;
+}
+.home-text11 {
+  font-style: normal;
+}
+.home-text12 {
+  font-style: normal;
 }
 @media(max-width: 991px) {
-  .home-text2 {
+  .home-link {
     max-width: 100%;
   }
 }
@@ -259,7 +312,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text2 {
+  .home-link {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
