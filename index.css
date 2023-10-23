@@ -135,11 +135,10 @@
 }
 .navbar-interactive-root-class-name1 {
   width: 100%;
-  background-color: #1a1a1a;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0.00%,rgba(0, 0, 0, 0.9) 0.00%,rgba(255, 255, 255, 0) 100.00%);
 }
 @media(max-width: 767px) {
   .navbar-interactive-navbar-interactive {
-    display: none;
     box-shadow: 5px 5px 10px 0px #d4d4d4;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -190,7 +189,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
-  background-image: a6e8933e-1d8c-4b92-80e5-de6d85b974fb;
+  background-image: url("public/landing%20collage-1500w.jpg");
 }
 .home-container1 {
   flex: 0 0 auto;
@@ -201,7 +200,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("https://play.teleporthq.io/static/svg/placeholders/no-image.svg");
+  background-image: url("public/landing%20collage-1500w.jpg");
 }
 .home-container2 {
   flex: 0 0 auto;
@@ -209,12 +208,10 @@
   height: 100%;
   display: flex;
   position: relative;
-  min-height: 1000;
+  min-height: var(--dl-size-size-maxwidth);
   align-items: center;
   flex-direction: column;
-  background-size: cover;
   justify-content: center;
-  background-image: url("public/landing%20collage-1500h.jpg");
 }
 .home-container3 {
   width: 466px;
