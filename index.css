@@ -206,7 +206,7 @@
   display: flex;
   z-index: 1;
   position: relative;
-  min-height: 1000px;
+  min-height: 800px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -235,6 +235,7 @@
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
+  z-index: 10;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
@@ -572,6 +573,30 @@
   .home-textinput1 {
     width: 100%;
     max-width: 500px;
+  }
+  .home-container10 {
+    flex-direction: column;
+  }
+  .home-container11 {
+    flex-direction: column;
+  }
+  .home-container13 {
+    flex-direction: column;
+  }
+  .home-container14 {
+    flex-direction: column;
+  }
+  .home-container16 {
+    flex-direction: column;
+  }
+  .home-container17 {
+    flex-direction: column;
+  }
+  .home-container19 {
+    flex-direction: column;
+  }
+  .home-container20 {
+    flex-direction: column;
   }
 }
 @media(max-width: 767px) {
